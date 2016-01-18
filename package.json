@@ -1,0 +1,65 @@
+{
+  "name": "node-sass-husl",
+  "version": "1.0.2",
+  "description": "Human-friendly HSL colors for node-sass",
+  "homepage": "https://github.com/epiloque/node-sass-husl",
+  "author": "Mark Milstein <mark@epiloque.com> (https://github.com/epiloque)",
+  "license": "MIT",
+  "keywords": [
+    "colors",
+    "husl",
+    "sass",
+    "libass",
+    "node-sass",
+    "scss",
+    "hsl",
+    "color",
+    "rgb"
+  ],
+  "maintainers": [
+    "Mark Milstein <robots+npm@epiloque.com> (https://github.com/epiloque)"
+  ],
+  "contributors": [
+    "Mark Milstein <robots+npm@epiloque.com> (https://github.com/epiloque)"
+  ],
+  "bugs": {
+    "url": "https://github.com/epiloque/node-sass-husl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/epiloque/node-sass-husl.git"
+  },
+  "main": "src/index.js",
+  "browsers": false,
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "bluebird": "^3.1.1",
+    "chai": "^3.4.1",
+    "deasync": "^0.1.4",
+    "find-root": "^0.1.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-mustache": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sort": "^1.1.1",
+    "gulp-tap": "^0.1.3",
+    "gulp-task-loader": "^1.3.1",
+    "lodash": "^4.0.0",
+    "mocha": "^2.3.4",
+    "read-package-json": "^2.0.3",
+    "remark": "^3.2.0",
+    "remark-github": "^3.0.0",
+    "remark-toc": "^2.0.1",
+    "require-directory": "^2.1.1",
+    "spdx-license-list": "^2.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^3.4.2",
+    "husl": "^6.0.1"
+  }
+}

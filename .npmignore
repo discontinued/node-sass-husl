@@ -1,0 +1,13 @@
+node_modules/
+#
+# Development Files
+.aux/
+.env
+gulpfile.*
+.editorconfig
+.eslintrc
+.jshintrc
+.jscrc
+.travis*
+.babelrc
+.eslintrc.js
